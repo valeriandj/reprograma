@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;    
+}
+
+body{
+    margin: 0;     
+}
+
+.banner{
+    background-image: url(../img/IMG_1763.png);
+    background-repeat: no-repeat;    
+    background-size: cover;       
+    height: 560px;
+    color:rgb(134, 32, 134);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    text-shadow: 1px 1px 2px black;
+}
+
+.banner__conteudo{
+    text-align: center;
+}
+
+.banner__titulo{
+    font-size: 40px;    
+}
+
+.banner__subtitulo{
+    font-size: 24px;
+}
+
+.banner__link{
+    text-decoration: none;
+    color: rgb(94, 19, 94);
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    border-style: ridge;
+    border-color: rgb(102, 35, 102);  
+}
+
+.banner__link:hover{
+background-color: rgb(240, 188, 240);
+}
+
+
+.sobre{    
+    padding: 50px;    
+}
+
+.sobre__titulo{
+    color: rgb(129, 123, 129);
+    font-size: 45px;
+}
+
+.sobre__conteudo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 40px; 
+    font-size: 24px;
+}
+
+.sobre__descricao{
+    width: 50%;    
+}
+
+.sobre__habilidades{
+    brunacalixto
+}
+
+.descricao__p2{
+    margin-bottom: 50px;
+}
+
+
+.footer {
+    margin: 5% 15%;
+}
+
+  
+.redes-sociais{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.redes-sociais__link{
+    background-color: rgb(102, 35, 102);
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    text-align: center;
+    padding: 10px 20px ;
+}  
+
+  .redes-sociais__link:hover {
+    opacity: 0.8;
+  }
+
+  .copyright{
+      text-align: center;
+  }
+  
+  @media(max-width: 768px){
+     .sobre__conteudo{
+         
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+     }
+
+     .sobre__descricao{
+        width: 100%;    
+    }
+
+    .sobre__habilidades{
+        width: 100%;
+    }
+ } 
+  
